@@ -1,0 +1,35 @@
+nav{
+    background-color:rgb(245, 122, 224);
+    color:white;
+    padding:30px;
+}
+
+h1,li,ul{
+    display:inline;
+}
+
+li{
+    margin-right: 10px;
+    size:14px;
+}
+li:hover{
+    color:grey;
+}
+
+.middle{
+    margin-left:450px;
+}
+
+.end{
+    margin-left:180px;
+    
+}
+
+i{
+    font-size:25px;
+}
+
+.ri-phone-line,.ri-mail-line{
+    padding:14px;
+
+}
