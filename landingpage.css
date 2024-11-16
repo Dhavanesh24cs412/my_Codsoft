@@ -12,8 +12,8 @@ li{
     margin-right: 10px;
     size:14px;
 }
-li:hover{
-    color:grey;
+i:hover{
+    color:hsl(0, 3%, 19%);
 }
 
 .middle{
@@ -27,9 +27,40 @@ li:hover{
 
 i{
     font-size:25px;
+    border-radius:50%;
+    display:inline-block;
+   
 }
 
-.ri-phone-line,.ri-mail-line{
+.ri-phone-fill,.ri-mail-fill{
     padding:14px;
+
+}
+
+.model{
+    width:570px;
+    
+
+}
+
+span{
+color:rgb(245, 122, 224);
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Aligns items vertically centered */
+
+}
+.container h1{
+    line-height:5rem;
+
+}
+
+.container p{
+    line-height:1.75rem;
+    margin-bottom:2rem;
+    font-size:1rem;
+    font-weight:500;
 
 }
