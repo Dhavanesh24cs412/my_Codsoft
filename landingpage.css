@@ -12,6 +12,8 @@ h1,li,ul{
     display:inline;
 }
 
+
+
 li{
     margin-right: 10px;
     size:14px;
@@ -21,7 +23,7 @@ i:hover{
 }
 
 .middle{
-    margin-left:350px;
+    margin-left:300px;
 }
 
 .end{
@@ -52,7 +54,7 @@ i{
 }
 
 span{
-color:rgb(245, 122, 224);
+color:#f57ae0;
 }
 
 .container {
@@ -104,3 +106,79 @@ color:rgb(245, 122, 224);
   .search-container button:hover {
     background-color: #cb0590;
   }
+
+
+
+
+  .courses{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    
+    
+  }
+
+  .courses .course_image{
+    padding:30px;
+    border: 3px solid #ccc;
+    background-color:blanchedalmond;
+
+
+  }
+
+.vid{
+    border: 2px solid grey;
+
+}
+
+.courses div:hover{
+    background-color:rgb(252, 213, 166)
+}
+
+
+      .course_image {
+            position: relative;
+            display: inline-block;
+        }
+
+        .course_image img {
+            display: block;
+        }
+
+        .video-icon {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            font-size: 50px;
+            color: white;
+        }
+
+        .course_image:hover .video-icon {
+            display: block;
+        }
+
+        .about_container{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+
+        .about_container p{
+            line-height:2rem;
+        }
+        .about_image img{
+            padding-top:30px;
+            padding-right:100px;
+            padding-left:11px;
+
+        }
+         .about_text{
+            padding-left:100px;
+        }
+
+        .nav_end{
+            display:inline;
+        }
